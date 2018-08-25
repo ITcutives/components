@@ -4,12 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
   <title>Stencil Component Starter</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800">
   <script src="/build/mycomponent.js"></script>
+  <style>
+    body {
+      font-family: "nunito";
+      background-color: #ECEFF1;
+    }
+  </style>
 
 </head>
-<body>
+<body style="padding: 75px;">
 
   <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
-
+  <pc-header></pc-header>
+  <pc-fab></pc-fab>
 </body>
 </html>

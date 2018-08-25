@@ -60,6 +60,72 @@ declare global {
   }
 }
 
+
+declare global {
+
+  namespace StencilComponents {
+    interface PcFab {
+
+    }
+  }
+
+  interface HTMLPcFabElement extends StencilComponents.PcFab, HTMLStencilElement {}
+
+  var HTMLPcFabElement: {
+    prototype: HTMLPcFabElement;
+    new (): HTMLPcFabElement;
+  };
+  interface HTMLElementTagNameMap {
+    'pc-fab': HTMLPcFabElement;
+  }
+  interface ElementTagNameMap {
+    'pc-fab': HTMLPcFabElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'pc-fab': JSXElements.PcFabAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PcFabAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface PcHeader {
+
+    }
+  }
+
+  interface HTMLPcHeaderElement extends StencilComponents.PcHeader, HTMLStencilElement {}
+
+  var HTMLPcHeaderElement: {
+    prototype: HTMLPcHeaderElement;
+    new (): HTMLPcHeaderElement;
+  };
+  interface HTMLElementTagNameMap {
+    'pc-header': HTMLPcHeaderElement;
+  }
+  interface ElementTagNameMap {
+    'pc-header': HTMLPcHeaderElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'pc-header': JSXElements.PcHeaderAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface PcHeaderAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
 declare global { namespace JSX { interface StencilJSX {} } }
 
 export declare function defineCustomElements(window: any): void;

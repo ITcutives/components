@@ -34,7 +34,9 @@ declare global {
     }
 
     interface PcHeader {
-
+      'description': string;
+      'logo': string;
+      'theme': string;
     }
   }
 
@@ -84,7 +86,9 @@ declare global {
     }
 
     export interface PcHeaderAttributes extends HTMLAttributes {
-
+      'description'?: string;
+      'logo'?: string;
+      'theme'?: string;
     }
   }
 

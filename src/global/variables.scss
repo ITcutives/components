@@ -33,6 +33,14 @@ $colors: (
     background: $color;
   }
 
+  .bgm-#{$profile}-shade1 {
+    background: darken($color, 18%);
+  }
+
+  .bgm-#{$profile}-shade2 {
+    background: darken($color, 35%);
+  }
+
   .text-#{$profile} {
     color: $color;
   }

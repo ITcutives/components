@@ -1,2 +1,94 @@
-.pc-header{
+.pc-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 -6px 8px 4px rgba(0, 0, 0, 0.3);
+
+  .back {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 3;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 50px;
+    height: 250px;
+    padding-left: 350px;
+    margin-right: -365px;
+    border-radius: 100%;
+    -webkit-transform: translate(-88%, -57%) translateY(50px);
+    transform: translate(-88%, -57%) translateY(50px);
+    box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.1);
+
+    i {
+      font-size: 22px;
+      color: white;
+      margin-top: -5px;
+    }
+  }
+
+  .place {
+    width: 100px;
+    height: 250px;
+    padding-left: 350px;
+    margin-right: -365px;
+    border-radius: 100%;
+    -webkit-transform: translate(-80%, -57%) translateY(50px);
+    transform: translate(-80%, -57%) translateY(50px);
+    z-index: 2;
+
+    .icons {
+      position: absolute;
+      top: calc(53% - 2px);
+      left: calc(79% + 53px);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 28px;
+      line-height: 66px;
+      -webkit-transition: top 0.5s ease;
+      transition: top 0.5s ease;
+
+      img {
+        height: 35px;
+      }
+    }
+  }
+
+  div[slot='right'] {
+    box-shadow: none;
+    position: absolute;
+    right: 10px;
+    margin-top: 6px;
+  }
+
+  .description {
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: 14px;
+    letter-spacing: 0.7px;
+  }
 }

@@ -29,6 +29,10 @@ declare global {
       'last': string;
     }
 
+    interface PcBadge {
+      'text': string;
+    }
+
     interface PcFab {
       'bgClass': string;
     }
@@ -46,6 +50,14 @@ declare global {
     var HTMLMyComponentElement: {
       prototype: HTMLMyComponentElement;
       new (): HTMLMyComponentElement;
+    };
+    
+
+    interface HTMLPcBadgeElement extends StencilComponents.PcBadge, HTMLStencilElement {}
+
+    var HTMLPcBadgeElement: {
+      prototype: HTMLPcBadgeElement;
+      new (): HTMLPcBadgeElement;
     };
     
 
@@ -69,6 +81,7 @@ declare global {
     interface Element {}
     export interface IntrinsicElements {
     'my-component': JSXElements.MyComponentAttributes;
+    'pc-badge': JSXElements.PcBadgeAttributes;
     'pc-fab': JSXElements.PcFabAttributes;
     'pc-header': JSXElements.PcHeaderAttributes;
     }
@@ -79,6 +92,10 @@ declare global {
     export interface MyComponentAttributes extends HTMLAttributes {
       'first'?: string;
       'last'?: string;
+    }
+
+    export interface PcBadgeAttributes extends HTMLAttributes {
+      'text'?: string;
     }
 
     export interface PcFabAttributes extends HTMLAttributes {
@@ -94,12 +111,14 @@ declare global {
 
   interface HTMLElementTagNameMap {
     'my-component': HTMLMyComponentElement
+    'pc-badge': HTMLPcBadgeElement
     'pc-fab': HTMLPcFabElement
     'pc-header': HTMLPcHeaderElement
   }
 
   interface ElementTagNameMap {
     'my-component': HTMLMyComponentElement;
+    'pc-badge': HTMLPcBadgeElement;
     'pc-fab': HTMLPcFabElement;
     'pc-header': HTMLPcHeaderElement;
   }

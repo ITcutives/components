@@ -1,0 +1,14 @@
+{
+  "generator-stenciljs": {
+    "promptValues": {
+      "lifeCycleEvents": [
+        "DidLoad",
+        "DidUnload"
+      ],
+      "convention": "name",
+      "testLib": "jest",
+      "styleFileExt": "scss",
+      "testFileExt": "spec.ts"
+    }
+  }
+}

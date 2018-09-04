@@ -9,7 +9,12 @@ export const config: Config = {
       ]
     })
   ],
-  namespace: 'mycomponent',
+  namespace: 'itcutives-components',
+  bundles: [
+    { components: ['pc-fab'] },
+    { components: ['pc-header'] },
+    { components: ['my-component'] }
+  ],
   outputTargets: [
     {
       type: 'dist'

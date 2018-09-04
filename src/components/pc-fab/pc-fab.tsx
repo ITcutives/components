@@ -5,15 +5,11 @@ import {Component, Prop} from '@stencil/core';
   styleUrl: 'pc-fab.scss'
 })
 export class PcFab {
-  @Prop() bgClass: string = 'primary';
-
-  getClass() {
-    return `btn ${this.bgClass} btn-round`;
-  }
+  @Prop() bg: string = 'primary';
 
   render() {
     return (
-      <button class={this.getClass()}>
+      <button class={`btn bgm-${this.bg} btn-round`}>
         <slot></slot>
       </button>
     );

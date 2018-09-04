@@ -30,11 +30,12 @@ declare global {
     }
 
     interface PcBadge {
+      'bg': string;
       'text': string;
     }
 
     interface PcFab {
-      'bgClass': string;
+      'bg': string;
     }
 
     interface PcHeader {
@@ -95,11 +96,12 @@ declare global {
     }
 
     export interface PcBadgeAttributes extends HTMLAttributes {
+      'bg'?: string;
       'text'?: string;
     }
 
     export interface PcFabAttributes extends HTMLAttributes {
-      'bgClass'?: string;
+      'bg'?: string;
     }
 
     export interface PcHeaderAttributes extends HTMLAttributes {

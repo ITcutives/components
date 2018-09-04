@@ -96,3 +96,13 @@
     box-shadow: none;
   }
 }
+
+@each $profile, $color in $colors {
+  .bgm-#{$profile}-shade1 {
+    background: darken(map-get($color, 'bg'), 18%);
+  }
+
+  .bgm-#{$profile}-shade2 {
+    background: darken(map-get($color, 'bg'), 35%);
+  }
+}

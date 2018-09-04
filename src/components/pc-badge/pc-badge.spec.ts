@@ -1,5 +1,5 @@
 import { flush, render } from '@stencil/core/testing';
-import { PcBadge } from '../pc-badge';
+import { PcBadge } from './pc-badge';
 
 describe('pc-badge', () => {
   it('should build', () => {

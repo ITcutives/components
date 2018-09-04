@@ -13,6 +13,7 @@ export const config: Config = {
   bundles: [
     { components: ['pc-fab'] },
     { components: ['pc-header'] },
+    { components: ['pc-badge'] },
     { components: ['my-component'] }
   ],
   outputTargets: [

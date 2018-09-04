@@ -1,48 +1,41 @@
 $colors: (
-  'primary': #488aff,
-  'secondary': #27c24c,
-  'danger': #f53d3d,
-  'light': #f4f4f4,
-  'dark': #222,
-
-  'lightgray': #c3c3c3,
-  'black': #000000,
-  'blue': #488aff,
-  'red': #f53d3d,
-  'purple': #9C27B0,
-  'deeppurple': #673AB7,
-  'lightblue': #23b7e5,
-  'cyan': #00BCD4,
-  'teal': #009688,
-  'green': #27c24c,
-  'lightgreen': #8BC34A,
-  'lime': #CDDC39,
-  'yellow': #FFEB3B,
-  'amber': #FAD733,
-  'orange': #FF9800,
-  'deeporange': #FF5722,
-  'gray': #9E9E9E,
-  'bluegray': #607D8B,
-  'indigo': #3F51B5,
-  'pink': #E91E63,
-  'brown': #795548
+  'primary': ('bg': #488aff),
+  'secondary': ('bg': #27c24c),
+  'danger': ('bg': #f53d3d),
+  'light': ('bg': #f4f4f4, 'color': #3c434b),
+  'dark': ('bg': #3c434b),
+  'lightgray': ('bg': #c3c3c3, 'color': #3c434b),
+  'black': ('bg': #000000),
+  'white': ('bg': #fff, 'color': #3c434b),
+  'blue': ('bg': #488aff),
+  'red': ('bg': #f53d3d),
+  'purple': ('bg': #9C27B0),
+  'deeppurple': ('bg': #673AB7),
+  'lightblue': ('bg': #23b7e5),
+  'cyan': ('bg': #00BCD4),
+  'teal': ('bg': #009688),
+  'green': ('bg': #27c24c),
+  'lightgreen': ('bg': #8BC34A),
+  'lime': ('bg': #CDDC39),
+  'yellow': ('bg': #FFEB3B, 'color': #3c434b),
+  'amber': ('bg': #FAD733, 'color': #505a65),
+  'orange': ('bg': #FF9800),
+  'deeporange': ('bg': #FF5722),
+  'gray': ('bg': #9E9E9E),
+  'bluegray': ('bg': #607D8B),
+  'indigo': ('bg': #3F51B5),
+  'pink': ('bg': #E91E63),
+  'brown': ('bg': #795548)
 );
 
 @each $profile, $color in $colors {
   .bgm-#{$profile} {
-    background: $color;
-  }
-
-  .bgm-#{$profile}-shade1 {
-    background: darken($color, 18%);
-  }
-
-  .bgm-#{$profile}-shade2 {
-    background: darken($color, 35%);
+    background: map-get($color, 'bg');
+    color: map-get(map-merge(('color': #fff), $color), 'color');
   }
 
   .text-#{$profile} {
-    color: $color;
+    color: map-get($color, 'bg');
   }
 
   button.bgm-#{$profile} {
@@ -50,7 +43,7 @@ $colors: (
     &:focus,
     &:active,
     &.active {
-      background-color: darken($color, 8%);
+      background-color: darken(map-get($color, 'bg'), 8%);
     }
   }
 }

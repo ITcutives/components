@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
-  <title>Stencil Component Starter</title>
+  <title>ITcutives Pickcell Components</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   <script src="/build/itcutives-components.js"></script>
   <style>
@@ -18,44 +18,76 @@
 
 </head>
 <body style="padding: 75px;">
-
-<pc-badge text="hello world"></pc-badge>
-  <pc-header  logo="https://admin.pickcell.io/images/pickcell-logo-icon-white.png" theme="primary">
+  <pc-header  logo="https://admin.pickcell.io/images/pickcell-logo-icon-white.png" theme="blue">
     <i slot="backIcon" class="fas fa-bars"></i>
     <div slot="right">
-      <pc-fab bg-class="bgm-primary"><i class="fas fa-bell text-light"></i></pc-fab>
-      <pc-fab bg-class="bgm-primary"><i class="fas fa-bug text-light"></i></pc-fab>
+      <pc-fab><i class="fas fa-bell text-white"></i></pc-fab>
+      <pc-fab><i class="fas fa-bug text-white"></i></pc-fab>
     </div>
   </pc-header>
 
   <div>
-    <pc-fab bg-class="bgm-primary"><i class="fas fa-home text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-secondary"><i class="fas fa-barcode text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-danger"><i class="fas fa-ban text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-light"><i class="fas fa-check text-bluegray"></i></pc-fab>
-    <pc-fab bg-class="bgm-dark"><i class="fas fa-coffee text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-lightgray"><i class="fas fa-home text-light"></i></pc-fab>
+    <pc-badge text="Text"></pc-badge>
+    <pc-badge text="Text" bg="secondary"></pc-badge>
+    <pc-badge text="Text" bg="danger"></pc-badge>
+    <pc-badge text="Text" bg="light"></pc-badge>
+    <pc-badge text="Text" bg="dark"></pc-badge>
+    <pc-badge text="Text" bg="lightgray"></pc-badge>
     <br><br>
-    <pc-fab bg-class="bgm-black"><i class="fas fa-database text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-blue"><i class="fas fa-edit text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-red"><i class="fas fa-envelope text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-purple"><i class="fas fa-exclamation-circle text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-deeppurple"><i class="fas fa-fingerprint text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-lightblue"><i class="fas fa-medal text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-cyan"><i class="fas fa-pen text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-teal"><i class="fas fa-redo text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-green"><i class="fas fa-save text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-lightgreen"><i class="fas fa-wifi text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-lime"><i class="fas fa-signal text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-yellow"><i class="fas fa-thumbs-up text-bluegray"></i></pc-fab>
-    <pc-fab bg-class="bgm-amber"><i class="fas fa-trash text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-orange"><i class="fas fa-at text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-deeporange"><i class="fas fa-award text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-gray"><i class="fas fa-bookmark text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-bluegray"><i class="fas fa-cog text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-indigo"><i class="fas fa-map-marker-alt text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-pink"><i class="fas fa-headphones text-light"></i></pc-fab>
-    <pc-fab bg-class="bgm-brown"><i class="fas fa-infinity text-light"></i></pc-fab>
+    <pc-badge text="Text" bg="black"></pc-badge>
+    <pc-badge text="Text" bg="white"></pc-badge>
+    <pc-badge text="Text" bg="blue"></pc-badge>
+    <pc-badge text="Text" bg="red"></pc-badge>
+    <pc-badge text="Text" bg="purple"></pc-badge>
+    <pc-badge text="Text" bg="deeppurple"></pc-badge>
+    <pc-badge text="Text" bg="lightblue"></pc-badge>
+    <pc-badge text="Text" bg="cyan"></pc-badge>
+    <pc-badge text="Text" bg="teal"></pc-badge>
+    <pc-badge text="Text" bg="green"></pc-badge>
+    <pc-badge text="Text" bg="lightgreen"></pc-badge>
+    <pc-badge text="Text" bg="lime"></pc-badge>
+    <pc-badge text="Text" bg="yellow"></pc-badge>
+    <pc-badge text="Text" bg="amber"></pc-badge>
+    <pc-badge text="Text" bg="orange"></pc-badge>
+    <pc-badge text="Text" bg="deeporange"></pc-badge>
+    <pc-badge text="Text" bg="gray"></pc-badge>
+    <pc-badge text="Text" bg="bluegray"></pc-badge>
+    <pc-badge text="Text" bg="indigo"></pc-badge>
+    <pc-badge text="Text" bg="pink"></pc-badge>
+    <pc-badge text="Text" bg="brown"></pc-badge>
+  </div>
+
+  <br>
+
+  <div>
+    <pc-fab><i class="fas fa-home"></i></pc-fab>
+    <pc-fab bg="secondary"><i class="fas fa-barcode"></i></pc-fab>
+    <pc-fab bg="danger"><i class="fas fa-ban"></i></pc-fab>
+    <pc-fab bg="light"><i class="fas fa-check"></i></pc-fab>
+    <pc-fab bg="dark"><i class="fas fa-coffee"></i></pc-fab>
+    <pc-fab bg="lightgray"><i class="fas fa-home"></i></pc-fab>
+    <br><br>
+    <pc-fab bg="black"><i class="fas fa-database"></i></pc-fab>
+    <pc-fab bg="white"><i class="fas fa-yin-yang"></i></pc-fab>
+    <pc-fab bg="blue"><i class="fas fa-edit"></i></pc-fab>
+    <pc-fab bg="red"><i class="fas fa-envelope"></i></pc-fab>
+    <pc-fab bg="purple"><i class="fas fa-exclamation-circle"></i></pc-fab>
+    <pc-fab bg="deeppurple"><i class="fas fa-fingerprint"></i></pc-fab>
+    <pc-fab bg="lightblue"><i class="fas fa-medal"></i></pc-fab>
+    <pc-fab bg="cyan"><i class="fas fa-pen"></i></pc-fab>
+    <pc-fab bg="teal"><i class="fas fa-redo"></i></pc-fab>
+    <pc-fab bg="green"><i class="fas fa-save"></i></pc-fab>
+    <pc-fab bg="lightgreen"><i class="fas fa-wifi"></i></pc-fab>
+    <pc-fab bg="lime"><i class="fas fa-signal"></i></pc-fab>
+    <pc-fab bg="yellow"><i class="fas fa-thumbs-up"></i></pc-fab>
+    <pc-fab bg="amber"><i class="fas fa-trash"></i></pc-fab>
+    <pc-fab bg="orange"><i class="fas fa-at"></i></pc-fab>
+    <pc-fab bg="deeporange"><i class="fas fa-award"></i></pc-fab>
+    <pc-fab bg="gray"><i class="fas fa-bookmark"></i></pc-fab>
+    <pc-fab bg="bluegray"><i class="fas fa-cog"></i></pc-fab>
+    <pc-fab bg="indigo"><i class="fas fa-map-marker-alt"></i></pc-fab>
+    <pc-fab bg="pink"><i class="fas fa-headphones"></i></pc-fab>
+    <pc-fab bg="brown"><i class="fas fa-infinity"></i></pc-fab>
   </div>
 
 

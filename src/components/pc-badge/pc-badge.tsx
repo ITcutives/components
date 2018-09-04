@@ -2,23 +2,17 @@ import { Component, Prop } from '@stencil/core'
 
 @Component({
   tag: 'pc-badge',
-  styleUrl: 'styles/pc-badge.scss'
+  styleUrl: 'pc-badge.scss'
 })
 export class PcBadge {
   @Prop() text: string;
-  componentDidLoad() {
-    console.log('The component has been rendered');
-  }
-  componentDidUnload() {
-    console.log('The component tag has been removed from the DOM');
-  }
+  @Prop() bg: string = 'primary';
 
   render() {
     return (
-      <div>
-        PcBadge
+      <span class={`bgm-${this.bg}`}>
         {this.text}
-      </div>
+      </span>
     )
   }
 }

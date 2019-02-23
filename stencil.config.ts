@@ -14,6 +14,7 @@ export const config: Config = {
     { components: ['pc-fab'] },
     { components: ['pc-header'] },
     { components: ['pc-badge'] },
+    { components: ['pc-card', 'pc-card-element'] },
     { components: ['my-component'] }
   ],
   outputTargets: [

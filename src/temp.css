@@ -1,0 +1,450 @@
+.bgm-primary {
+  background: #488aff;
+  color: #fff;
+}
+
+.text-primary {
+  color: #488aff;
+}
+
+button.bgm-primary:hover, button.bgm-primary:focus, button.bgm-primary:active, button.bgm-primary.active {
+  background-color: #1f70ff;
+}
+
+.bgm-secondary {
+  background: #27c24c;
+  color: #fff;
+}
+
+.text-secondary {
+  color: #27c24c;
+}
+
+button.bgm-secondary:hover, button.bgm-secondary:focus, button.bgm-secondary:active, button.bgm-secondary.active {
+  background-color: #20a03f;
+}
+
+.bgm-danger {
+  background: #f53d3d;
+  color: #fff;
+}
+
+.text-danger {
+  color: #f53d3d;
+}
+
+button.bgm-danger:hover, button.bgm-danger:focus, button.bgm-danger:active, button.bgm-danger.active {
+  background-color: #f31616;
+}
+
+.bgm-light {
+  background: #f4f4f4;
+  color: #3c434b;
+}
+
+.text-light {
+  color: #f4f4f4;
+}
+
+button.bgm-light:hover, button.bgm-light:focus, button.bgm-light:active, button.bgm-light.active {
+  background-color: #e0e0e0;
+}
+
+.bgm-dark {
+  background: #3c434b;
+  color: #fff;
+}
+
+.text-dark {
+  color: #3c434b;
+}
+
+button.bgm-dark:hover, button.bgm-dark:focus, button.bgm-dark:active, button.bgm-dark.active {
+  background-color: #2a2f34;
+}
+
+.bgm-lightgray {
+  background: #c3c3c3;
+  color: #3c434b;
+}
+
+.text-lightgray {
+  color: #c3c3c3;
+}
+
+button.bgm-lightgray:hover, button.bgm-lightgray:focus, button.bgm-lightgray:active, button.bgm-lightgray.active {
+  background-color: #afafaf;
+}
+
+.bgm-black {
+  background: #000000;
+  color: #fff;
+}
+
+.text-black {
+  color: #000000;
+}
+
+button.bgm-black:hover, button.bgm-black:focus, button.bgm-black:active, button.bgm-black.active {
+  background-color: black;
+}
+
+.bgm-white {
+  background: #fff;
+  color: #3c434b;
+}
+
+.text-white {
+  color: #fff;
+}
+
+button.bgm-white:hover, button.bgm-white:focus, button.bgm-white:active, button.bgm-white.active {
+  background-color: #ebebeb;
+}
+
+.bgm-blue {
+  background: #488aff;
+  color: #fff;
+}
+
+.text-blue {
+  color: #488aff;
+}
+
+button.bgm-blue:hover, button.bgm-blue:focus, button.bgm-blue:active, button.bgm-blue.active {
+  background-color: #1f70ff;
+}
+
+.bgm-red {
+  background: #f53d3d;
+  color: #fff;
+}
+
+.text-red {
+  color: #f53d3d;
+}
+
+button.bgm-red:hover, button.bgm-red:focus, button.bgm-red:active, button.bgm-red.active {
+  background-color: #f31616;
+}
+
+.bgm-purple {
+  background: #9C27B0;
+  color: #fff;
+}
+
+.text-purple {
+  color: #9C27B0;
+}
+
+button.bgm-purple:hover, button.bgm-purple:focus, button.bgm-purple:active, button.bgm-purple.active {
+  background-color: #7e208f;
+}
+
+.bgm-deeppurple {
+  background: #673AB7;
+  color: #fff;
+}
+
+.text-deeppurple {
+  color: #673AB7;
+}
+
+button.bgm-deeppurple:hover, button.bgm-deeppurple:focus, button.bgm-deeppurple:active, button.bgm-deeppurple.active {
+  background-color: #563098;
+}
+
+.bgm-lightblue {
+  background: #23b7e5;
+  color: #fff;
+}
+
+.text-lightblue {
+  color: #23b7e5;
+}
+
+button.bgm-lightblue:hover, button.bgm-lightblue:focus, button.bgm-lightblue:active, button.bgm-lightblue.active {
+  background-color: #189ec8;
+}
+
+.bgm-cyan {
+  background: #00BCD4;
+  color: #fff;
+}
+
+.text-cyan {
+  color: #00BCD4;
+}
+
+button.bgm-cyan:hover, button.bgm-cyan:focus, button.bgm-cyan:active, button.bgm-cyan.active {
+  background-color: #0098ab;
+}
+
+.bgm-teal {
+  background: #009688;
+  color: #fff;
+}
+
+.text-teal {
+  color: #009688;
+}
+
+button.bgm-teal:hover, button.bgm-teal:focus, button.bgm-teal:active, button.bgm-teal.active {
+  background-color: #006d63;
+}
+
+.bgm-green {
+  background: #27c24c;
+  color: #fff;
+}
+
+.text-green {
+  color: #27c24c;
+}
+
+button.bgm-green:hover, button.bgm-green:focus, button.bgm-green:active, button.bgm-green.active {
+  background-color: #20a03f;
+}
+
+.bgm-lightgreen {
+  background: #8BC34A;
+  color: #fff;
+}
+
+.text-lightgreen {
+  color: #8BC34A;
+}
+
+button.bgm-lightgreen:hover, button.bgm-lightgreen:focus, button.bgm-lightgreen:active, button.bgm-lightgreen.active {
+  background-color: #76ab39;
+}
+
+.bgm-lime {
+  background: #CDDC39;
+  color: #fff;
+}
+
+.text-lime {
+  color: #CDDC39;
+}
+
+button.bgm-lime:hover, button.bgm-lime:focus, button.bgm-lime:active, button.bgm-lime.active {
+  background-color: #bac923;
+}
+
+.bgm-yellow {
+  background: #FFEB3B;
+  color: #3c434b;
+}
+
+.text-yellow {
+  color: #FFEB3B;
+}
+
+button.bgm-yellow:hover, button.bgm-yellow:focus, button.bgm-yellow:active, button.bgm-yellow.active {
+  background-color: #ffe712;
+}
+
+.bgm-amber {
+  background: #FAD733;
+  color: #505a65;
+}
+
+.text-amber {
+  color: #FAD733;
+}
+
+button.bgm-amber:hover, button.bgm-amber:focus, button.bgm-amber:active, button.bgm-amber.active {
+  background-color: #f9cf0b;
+}
+
+.bgm-orange {
+  background: #FF9800;
+  color: #fff;
+}
+
+.text-orange {
+  color: #FF9800;
+}
+
+button.bgm-orange:hover, button.bgm-orange:focus, button.bgm-orange:active, button.bgm-orange.active {
+  background-color: #d68000;
+}
+
+.bgm-deeporange {
+  background: #FF5722;
+  color: #fff;
+}
+
+.text-deeporange {
+  color: #FF5722;
+}
+
+button.bgm-deeporange:hover, button.bgm-deeporange:focus, button.bgm-deeporange:active, button.bgm-deeporange.active {
+  background-color: #f83c00;
+}
+
+.bgm-gray {
+  background: #9E9E9E;
+  color: #fff;
+}
+
+.text-gray {
+  color: #9E9E9E;
+}
+
+button.bgm-gray:hover, button.bgm-gray:focus, button.bgm-gray:active, button.bgm-gray.active {
+  background-color: #8a8a8a;
+}
+
+.bgm-bluegray {
+  background: #607D8B;
+  color: #fff;
+}
+
+.text-bluegray {
+  color: #607D8B;
+}
+
+button.bgm-bluegray:hover, button.bgm-bluegray:focus, button.bgm-bluegray:active, button.bgm-bluegray.active {
+  background-color: #4f6773;
+}
+
+.bgm-indigo {
+  background: #3F51B5;
+  color: #fff;
+}
+
+.text-indigo {
+  color: #3F51B5;
+}
+
+button.bgm-indigo:hover, button.bgm-indigo:focus, button.bgm-indigo:active, button.bgm-indigo.active {
+  background-color: #344397;
+}
+
+.bgm-pink {
+  background: #E91E63;
+  color: #fff;
+}
+
+.text-pink {
+  color: #E91E63;
+}
+
+button.bgm-pink:hover, button.bgm-pink:focus, button.bgm-pink:active, button.bgm-pink.active {
+  background-color: #ca1452;
+}
+
+.bgm-brown {
+  background: #795548;
+  color: #fff;
+}
+
+.text-brown {
+  color: #795548;
+}
+
+button.bgm-brown:hover, button.bgm-brown:focus, button.bgm-brown:active, button.bgm-brown.active {
+  background-color: #5f4339;
+}
+
+.pc-card-element.header, .pc-card-element.footer {
+  position: relative;
+}
+
+.pc-card-element.header h2, .pc-card-element.footer h2 {
+  margin: 0;
+  line-height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pc-card-element.header h2 small, .pc-card-element.footer h2 small {
+  display: block;
+  margin-top: 2px;
+  color: #AEAEAE;
+  line-height: 160%;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .pc-card-element.header h2, .pc-card-element.footer h2 {
+    font-size: 17px;
+  }
+
+  .pc-card-element.header h2 small, .pc-card-element.footer h2 small {
+    font-size: 13px;
+  }
+}
+
+.pc-card-element.header:not(.ch-alt), .pc-card-element.header.ch-alt, .pc-card-element.footer:not(.ch-alt), .pc-card-element.footer.ch-alt {
+  padding: 16px 21px;
+}
+
+@media screen and (max-width: 992px) {
+  .pc-card-element.header:not(.ch-alt), .pc-card-element.header.ch-alt, .pc-card-element.footer:not(.ch-alt), .pc-card-element.footer.ch-alt {
+    padding: 16px;
+  }
+}
+
+.pc-card-element.header.ch-alt:not([class*="bgm-"]), .pc-card-element.footer.ch-alt:not([class*="bgm-"]) {
+  background-color: #f7f7f7;
+}
+
+.pc-card-element.header[class*="bgm-"] h2, .pc-card-element.header[class*="bgm-"] h2 small, .pc-card-element.footer[class*="bgm-"] h2, .pc-card-element.footer[class*="bgm-"] h2 small {
+  color: #fff;
+}
+
+.pc-card-element.header .actions, .pc-card-element.footer .actions {
+  position: absolute;
+  right: 11px;
+  z-index: 2;
+  top: 15px;
+}
+
+.pc-card-element.header .actions .far, .pc-card-element.header .actions .fal, .pc-card-element.footer .actions .far, .pc-card-element.footer .actions .fal {
+  padding-top: 2px;
+  font-size: 15px;
+}
+
+.pc-card-element.header .btn-float, .pc-card-element.footer .btn-float {
+  right: 25px;
+  z-index: 1;
+}
+
+.pc-card-element.header {
+  border-radius: 10px 10px 0 0;
+}
+
+.pc-card-element.header .btn-float {
+  bottom: -23px;
+}
+
+.pc-card-element.footer {
+  border-radius: 0 0 10px 10px;
+}
+
+.pc-card-element.footer .btn-float {
+  top: -23px;
+}
+
+.pc-card-element.body {
+  min-height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .pc-card-element.body.padding {
+    padding: 23px 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pc-card-element.body.padding {
+    padding: 18px;
+  }
+}
+
+.pc-card-element.body.padding-sm {
+  padding: 15px;
+}

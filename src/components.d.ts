@@ -34,6 +34,15 @@ declare global {
       'text': string;
     }
 
+    interface PcCardElement {
+      'bg': string;
+      'type': string;
+    }
+
+    interface PcCard {
+
+    }
+
     interface PcFab {
       'bg': string;
     }
@@ -62,6 +71,22 @@ declare global {
     };
     
 
+    interface HTMLPcCardElementElement extends StencilComponents.PcCardElement, HTMLStencilElement {}
+
+    var HTMLPcCardElementElement: {
+      prototype: HTMLPcCardElementElement;
+      new (): HTMLPcCardElementElement;
+    };
+    
+
+    interface HTMLPcCardElement extends StencilComponents.PcCard, HTMLStencilElement {}
+
+    var HTMLPcCardElement: {
+      prototype: HTMLPcCardElement;
+      new (): HTMLPcCardElement;
+    };
+    
+
     interface HTMLPcFabElement extends StencilComponents.PcFab, HTMLStencilElement {}
 
     var HTMLPcFabElement: {
@@ -83,6 +108,8 @@ declare global {
     export interface IntrinsicElements {
     'my-component': JSXElements.MyComponentAttributes;
     'pc-badge': JSXElements.PcBadgeAttributes;
+    'pc-card-element': JSXElements.PcCardElementAttributes;
+    'pc-card': JSXElements.PcCardAttributes;
     'pc-fab': JSXElements.PcFabAttributes;
     'pc-header': JSXElements.PcHeaderAttributes;
     }
@@ -100,6 +127,15 @@ declare global {
       'text'?: string;
     }
 
+    export interface PcCardElementAttributes extends HTMLAttributes {
+      'bg'?: string;
+      'type'?: string;
+    }
+
+    export interface PcCardAttributes extends HTMLAttributes {
+
+    }
+
     export interface PcFabAttributes extends HTMLAttributes {
       'bg'?: string;
     }
@@ -114,6 +150,8 @@ declare global {
   interface HTMLElementTagNameMap {
     'my-component': HTMLMyComponentElement
     'pc-badge': HTMLPcBadgeElement
+    'pc-card-element': HTMLPcCardElementElement
+    'pc-card': HTMLPcCardElement
     'pc-fab': HTMLPcFabElement
     'pc-header': HTMLPcHeaderElement
   }
@@ -121,6 +159,8 @@ declare global {
   interface ElementTagNameMap {
     'my-component': HTMLMyComponentElement;
     'pc-badge': HTMLPcBadgeElement;
+    'pc-card-element': HTMLPcCardElementElement;
+    'pc-card': HTMLPcCardElement;
     'pc-fab': HTMLPcFabElement;
     'pc-header': HTMLPcHeaderElement;
   }
